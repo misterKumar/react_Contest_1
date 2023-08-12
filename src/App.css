@@ -46,5 +46,5 @@
     font-weight: bold;
   }
   .b-box{
-    box-shadow:0 0 30px 30px rgba(60, 24, 78, 0.25); 
+    box-shadow: -30px 20px 100px 10px rgba(251, 24, 78, 0.47),30px -20px 100px -5px #152cc1;
   }
