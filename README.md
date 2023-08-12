@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-check this link : https://react-contest-1-seven.vercel.app/
+check this link : https://react-contest-1-fun.vercel.app/
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
