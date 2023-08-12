@@ -72,9 +72,22 @@ const Calculator = () => {
         default:
           operationResult = '';
       }
+      if(isNaN(operationResult)){
+        setErrorMessage(
+          <>
+              Error !<br/><br/>
+              Arithmetic exception
+  
+          </>
+          );
+        setSuccessMessage('');
+        setResult('');
 
-      setResult(operationResult);
-      setSuccessMessage('Success !');
+      }
+      else{
+        setResult(operationResult);
+        setSuccessMessage('Success !');
+      }
     }
   };
 
